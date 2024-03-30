@@ -1,0 +1,73 @@
+body {
+    background: url('must.jpg') center/cover fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+form {
+    background-color: #a3a2a2b8;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+label {
+    color: #333;
+    display: block;
+    margin: 15px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 60px;
+    margin: 5px 0 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+input[type="submit"],
+button {
+    background-color: #4caf6f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #45a049;
+}
+
+button {
+    background-color: #008CBA;
+}
+
+p {
+    color: #ffeb3b;
+    text-align: center;
+}
+
+div#usernameavail {
+    color: #cc0000;
+    margin-bottom: 15px;
+}
+
+div.align-center {
+    text-align: center;
+}
